@@ -1,0 +1,352 @@
+:root{
+    --first-color: #212121;
+    --second-color: #2196F3;
+    --third-color:  #188CE8;
+    --fourth-color: #FFFFFF;
+    --fifth-color: #757575;
+    --sixth-color:  #F5F4FA;
+    --seventh-color: #2F303A;
+    --eight-color: #EEEEEE;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+a, a:visited{
+    text-decoration: none;
+}
+
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+html, body {
+    background: #f00;
+}
+
+body{
+    font-family: 'Roboto', sans-serif; 
+    color: var(--fifth-color);
+}
+
+header { 
+    background: var(--fourth-color); 
+}
+footer {
+    background: var(--seventh-color);
+}
+main {}
+
+header .main-logo,
+header .main-logo:visited { 
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    color: var(--first-color);
+
+}
+header .main-logo span {
+    color: var(--second-color);
+}
+
+header nav {}
+header nav ul{}
+header nav ul li{ list-style: none;}
+header nav ul li a,
+header nav ul li a:visited {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: var(--first-color);
+}
+
+header nav ul li a:hover,
+header nav ul li a:active,
+header nav ul li.active a,
+header nav ul li.active a:visited {
+    color: var(--second-color);
+}
+
+
+
+header .contacts-list {}
+header .contacts-list li {}
+header .contacts-list li a,
+header .contacts-list li a:visited{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: var(--fifth-color);
+}
+
+header .contacts-list li a:hover,
+header .contacts-list li a:active
+{
+    color: var(--second-color);
+}
+
+header .contacts-list li .contact-email,
+header .contacts-list li .contact-email:visited {
+   
+}
+header .contacts-list li .contact-phone,
+header .contacts-list li .contact-phone:visited {
+    
+}
+
+
+footer .footer-logo,
+footer .footer-logo:visited {
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    color: var(--fourth-color);
+}
+footer .footer-logo span {
+    color: var(--second-color);
+}
+
+footer address {}
+footer address ul {}
+footer address ul li{
+    list-style: none;
+} 
+footer address ul li a,
+footer address ul li a:visited {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    color: rgba(255,255,255, 0.6);
+} 
+
+footer address ul li a:hover,
+footer address ul li a:active{
+    color: var(--fourth-color);
+}
+
+.base-element {}
+.base-element h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    color: var(--first-color);
+}
+
+.base-element01 {  
+    background: var(--seventh-color); 
+}
+.base-element02 { 
+    background: var(--fourth-color);
+}
+.base-element03 {
+    background: var(--fourth-color);
+}
+.base-element04 {
+    background: var(--sixth-color);
+}
+
+.base-portfolio {
+    background: var(--fourth-color);
+}
+
+.base-element01 h1 {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    color: var(--fourth-color);
+}
+.base-element01 button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    background: var(--third-color);
+    color: var(--fourth-color);
+
+    border: 0px none;
+    opacity: 1;
+}
+
+.base-element01 button:hover,
+.base-element01 button:active{
+    opacity: 0.8;
+}
+
+.base-element02 h2{
+    width: 0px;
+    height: 0px;
+    font-size: 0;
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.base-element02 ul {}
+.base-element02 ul li {
+    list-style: none;
+}
+.base-element02 ul li h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    color: var(--first-color);
+
+ }
+.base-element02 ul li p { 
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    color: var(--fifth-color);
+
+}
+
+.base-element03 ul {}
+.base-element03 ul li {}
+.base-element03 ul li img {}
+
+.base-element04 ul {}
+.base-element04 ul li {
+    background: var(--fourth-color);
+    
+    border-radius: 3px;
+
+    border: 1px solid #00000033;
+
+
+}
+.base-element04 ul li img {}
+.base-element04 ul li h3 {
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    color: var(--first-color);
+
+}
+.base-element04 ul li p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    color: var(--fifth-color);
+
+}
+
+.base-portfolio h1{
+    width: 0px;
+    height: 0px;
+    font-size: 0;
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.base-portfolio .portfolio-menu {}
+
+.base-portfolio .portfolio-menu li {
+    list-style: none;
+}
+
+.base-portfolio .portfolio-menu li button {
+    border: 0px none;
+    background: var(--sixth-color);
+
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    color: var(--first-color);
+}
+
+.base-portfolio .portfolio-menu li.active button,
+.base-portfolio .portfolio-menu li button:hover,
+.base-portfolio .portfolio-menu li button:active {
+    background: var(--second-color);
+    color: var(--fourth-color);
+}
+
+.base-portfolio .portfolio-list {}
+.base-portfolio .portfolio-list li {
+    list-style: none;
+    border: 1px solid var(--eight-color);
+}
+.base-portfolio .portfolio-list li img {}
+.base-portfolio .portfolio-list li h2 {
+  
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+
+    color: var(--first-color);
+
+}
+.base-portfolio .portfolio-list li p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    color: var(--fifth-color);
+
+}
